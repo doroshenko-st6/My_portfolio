@@ -1,0 +1,76 @@
+@font-face {
+    src: url('../fonts/HelveticaNeue.ttf') format('truetype');
+    font-family: "HelveticaNeue";
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('../fonts/Helvetica\ Neu\ Bold.ttf') format('truetype');
+    font-family: "HelveticaNeue";
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url('../fonts/HelveticaNeue\ Light.ttf') format('truetype');
+    font-family: "HelveticaNeue";
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('../fonts/Raleway-Light.ttf') format('truetype');
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('../fonts/Oswald-Bold.ttf') format('truetype');
+    font-family: "Oswald";
+    font-style: bold;
+    font-weight: 700;
+}
