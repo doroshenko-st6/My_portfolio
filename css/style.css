@@ -300,16 +300,15 @@ html {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .portfolio-grid {
-  margin: -10px;
+  /* margin: -10px; */
   /* counter-reset: work-counter; */
   text-transform: uppercase;
 }
 
 .portfolio-grid__col {
   height: auto;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+  display: inline-block;
+  padding: 5px;
   width: calc(100%/3);
 }
 
