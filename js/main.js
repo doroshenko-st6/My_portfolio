@@ -265,7 +265,8 @@ function portfolioGrid(media) {
             
             $grid.masonry({
                 itemSelector: '.portfolio-grid__col',
-                percentPosition: true
+                percentPosition: true,
+                horizontalOrder: true
             });            
         }
     }
