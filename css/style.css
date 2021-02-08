@@ -135,6 +135,7 @@ html {
 }
 
 .section {
+  height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
