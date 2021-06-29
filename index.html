@@ -353,6 +353,31 @@
             </div>
         </div>
     </div>
+    <div class="footer-info">
+        <div class="today">
+            <script>
+
+                
+                let date = new Date(),
+
+
+                year = date.getFullYear(),
+                hours = date.getHours(),
+                min = date.getMinutes(),
+                sec = date.getSeconds(),
+                text = year,
+                html = '<div class="today">' + text  + ' - ' + hours + " : " + min + " : " + sec;
+                    
+                document.write(html);
+
+                setInterval(function () {
+                   
+                    document.querySelector('today').innerHTML(sec);
+                    
+                }, 1000);
+            </script>
+        </div>
+    </div>
 
     <script src="./js/libs/jquery-3.5.1.min.js"></script>
     <script src="./js/libs/slick.min.js"></script>

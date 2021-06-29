@@ -607,6 +607,16 @@ html {
   margin-top: 20px;
 }
 
+.footer-info {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.today {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-icons {
   margin-top: 18px;
   display: flex;
