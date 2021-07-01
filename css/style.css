@@ -609,12 +609,14 @@ html {
 
 .footer-info {
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-.today {
+.clock {
   display: flex;
   justify-content: center;
+  font-weight: 800;
+  opacity: .3;
 }
 
 .contact-icons {

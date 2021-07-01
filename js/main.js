@@ -305,3 +305,39 @@ $(window).scroll(function(){
         }
     });
 });
+
+// CLOCK !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+const clock = document.querySelector('#clock');
+
+
+setInterval(function() {
+    
+    let date = new Date();
+    let yy = date.getFullYear();
+    let hh = date.getHours();
+    let mm = date.getMinutes();
+    let ss = date.getSeconds();
+
+
+    if (hh < 10) {
+        hh = '0'+ hh;
+    }
+
+    if (mm < 10) {
+        mm = '0' + mm;
+    }
+
+    if (ss < 10) {
+        ss = '0' + ss;
+    }
+
+    clock.innerHTML = `${yy} - ${hh} : ${mm} : ${ss}`;
+    
+   
+},1000);
+
+
+
+

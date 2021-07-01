@@ -354,28 +354,7 @@
         </div>
     </div>
     <div class="footer-info">
-        <div class="today">
-            <script>
-
-                
-                let date = new Date(),
-
-
-                year = date.getFullYear(),
-                hours = date.getHours(),
-                min = date.getMinutes(),
-                sec = date.getSeconds(),
-                text = year,
-                html = '<div class="today">' + text  + ' - ' + hours + " : " + min + " : " + sec;
-                    
-                document.write(html);
-
-                setInterval(function () {
-                   
-                    document.querySelector('today').innerHTML(sec);
-                    
-                }, 1000);
-            </script>
+        <div id="clock" class="clock">
         </div>
     </div>
 

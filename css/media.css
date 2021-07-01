@@ -877,4 +877,8 @@
   .contact-content h2 {
     margin-bottom: 10px;
   }
+
+  .footer-info {
+    font-size: 14px;
+  }
 }
