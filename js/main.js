@@ -320,7 +320,6 @@ setInterval(function() {
     let mm = date.getMinutes();
     let ss = date.getSeconds();
 
-
     if (hh < 10) {
         hh = '0'+ hh;
     }
@@ -335,7 +334,6 @@ setInterval(function() {
 
     clock.innerHTML = `${yy} - ${hh} : ${mm} : ${ss}`;
     
-   
 },1000);
 
 
